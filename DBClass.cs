@@ -11,6 +11,7 @@ namespace WindowsFormsApp1
     {
         public string GetConnectionString()
         {
+            //test
             return ConfigurationManager.ConnectionStrings["OracleDBConnection"].ConnectionString;
         }
     }
